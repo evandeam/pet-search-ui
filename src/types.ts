@@ -13,5 +13,5 @@ export type PetInfo = {
   picture: string;
   description: string;
   open: boolean;
-  setOpen?: Dispatch<SetStateAction<boolean>>
+  setOpen?: Dispatch<SetStateAction<boolean>>;
 };
