@@ -39,7 +39,7 @@ export default function ResultListItem({
         />
       ) : (
         <div
-          className="mx-52 my-7 grid grid-cols-3 rounded-lg text-center hover:bg-slate-50"
+          className="my-7 grid grid-cols-3 rounded-lg text-center hover:bg-slate-50"
           onClick={() => setOpen(true)}
         >
           <span className="justify-items-start py-4 pl-6 pr-3 text-center text-sm font-medium text-gray-900 sm:pl-0">

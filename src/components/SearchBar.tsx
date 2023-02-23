@@ -16,8 +16,6 @@ export default function SearchBar({ setSearchInput }: SearchBarProps) {
           id="search"
           className="block w-full rounded-md pr-10 focus:outline-none sm:text-sm"
           placeholder="Try 'boxer', 'smart', etc."
-          aria-invalid="true"
-          aria-describedby="search-error"
         />
       </label>
     </div>
