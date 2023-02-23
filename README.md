@@ -2,12 +2,12 @@
 `npm i` dependencies and `npm run dev` to view the app in dev mode on port 3000.
 
 ## App structure
-pages/index.tsx
-|_ SearchContainer
-   |_ SearchBar
-   |_ SearchResultsList
-      |_ ResultListItem
-         |_ ItemDetails
+- pages/index.tsx
+   - SearchContainer
+      - SearchBar
+      - SearchResultsList
+         - ResultListItem
+            - ItemDetails
 
 ## Quick explanations of some decisions
 - I wanted to be able to share state between components that were children of the SearchContainer component, so I used the useState hook and passed the useState-state and -function down to the components that needed them.
